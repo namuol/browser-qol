@@ -49,4 +49,4 @@
 ! YouTube Music button
 ##[aria-label="YouTube Music"]
 
-#endif
+#!endif
