@@ -15,6 +15,7 @@ cat > .git/hooks/pre-commit << 'EOF'
 #!/bin/sh
 
 cd blocker-rules
+rm all.txt
 cat *.txt > all.txt
 git add all.txt
 cd -
