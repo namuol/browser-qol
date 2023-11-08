@@ -1,0 +1,44 @@
+! For use with uBlock Origin (non-Safari) or AdGuard (Safari)
+
+!#if env_domain(amazon.com)
+
+##.template\=FEATURED_ASINS_LIST
+##.template\=VIDEO_SINGLE_PRODUCT
+##.AdHolder
+###rhf-shoveler
+##.s-left-ads-item
+##[data-ad-details]
+###sims-themis-sponsored-products-2_feature_div
+###ad-display-center-1_feature_div
+###center-28_feature_div
+###similarities_feature_div
+###va-related-videos-widget_feature_div
+###sc-new-upsell
+###cart-item-recs
+###sc-rec-bottom
+###discovery-and-inspiration_feature_div
+###grocery-bundle_feature_div
+###smart-wagon-recommendations-atf
+###smart-wagon-recommendations-btf
+##.s-suggestion-trending-container
+###sw-maple
+
+! Landing page is nothing but ads, naturally
+###pageContent
+
+! Most navigation is ads
+###nav-main
+###navFooter
+
+! "Buy it again"
+###sc-buy-it-again-caption
+###sc-buy-it-again
+
+!#endif
+! For use with uBlock Origin (non-Safari) or AdGuard (Safari)
+
+!#if env_domain(youtube.com)
+
+##ytd-shelf-renderer.style-scope.ytd-item-section-renderer[modern-typography][thumbnail-style]
+
+#endif

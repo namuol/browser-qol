@@ -1,0 +1,7 @@
+! For use with uBlock Origin (non-Safari) or AdGuard (Safari)
+
+!#if env_domain(youtube.com)
+
+##ytd-shelf-renderer.style-scope.ytd-item-section-renderer[modern-typography][thumbnail-style]
+
+#endif

@@ -1,0 +1,14 @@
+/**
+ * Custom stylesheet for Safari. Go to `Settings -> Advanced -> Style sheet`,
+ * and select this file.
+ *
+ * May update this to work with an extension once I find one I like.
+ */
+
+/* vocademy.net */
+body[style="margin-right: 10px; margin-left: 10px;"] {
+  margin: auto !important;
+  max-width: 80ch;
+  line-height: 1.6;
+  font-size: 19px;
+}
