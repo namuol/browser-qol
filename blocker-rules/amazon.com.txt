@@ -22,12 +22,22 @@ amazon.com##.s-suggestion-trending-container
 amazon.com###sw-maple
 
 ! Landing page is nothing but ads, naturally
+! Desktop
 amazon.com###pageContent
+! Mobile
+amazon.com###gwm-Deck
 
 ! Most navigation is ads
-amazon.com###nav-main
+! Desktop "nav"
+amazon.com###nav-xshop-container
+! Mobile "nav"
+amazon.com###nav-gwbar
 amazon.com###navFooter
 
 ! "Buy it again"
 amazon.com###sc-buy-it-again-caption
 amazon.com###sc-buy-it-again
+
+! Mobile checkout stuff
+amazon.com###sc-recs-widget
+amazon.com###sc-continue-shopping

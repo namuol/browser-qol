@@ -22,16 +22,25 @@ amazon.com##.s-suggestion-trending-container
 amazon.com###sw-maple
 
 ! Landing page is nothing but ads, naturally
+! Desktop
 amazon.com###pageContent
+! Mobile
+amazon.com###gwm-Deck
 
 ! Most navigation is ads
-amazon.com###nav-main
+! Desktop "nav"
+amazon.com###nav-xshop-container
+! Mobile "nav"
+amazon.com###nav-gwbar
 amazon.com###navFooter
 
 ! "Buy it again"
 amazon.com###sc-buy-it-again-caption
 amazon.com###sc-buy-it-again
-! For use with uBlock Origin (non-Safari) or AdGuard (Safari)
+
+! Mobile checkout stuff
+amazon.com###sc-recs-widget
+amazon.com###sc-continue-shopping! For use with uBlock Origin (non-Safari) or AdGuard (Safari)
 
 ! "For you" & other bullshit
 youtube.com##ytd-shelf-renderer.style-scope.ytd-item-section-renderer[modern-typography][thumbnail-style]
