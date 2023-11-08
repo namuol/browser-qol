@@ -2,6 +2,14 @@
 
 !#if env_domain(youtube.com)
 
+! "For you" & other bullshit
 ##ytd-shelf-renderer.style-scope.ytd-item-section-renderer[modern-typography][thumbnail-style]
+
+! Shorts foistings
+##ytd-reel-shelf-renderer
+##[aria-label="Shorts"]
+
+! YouTube Music button
+##[aria-label="YouTube Music"]
 
 #endif
