@@ -41,3 +41,14 @@ amazon.com###sc-buy-it-again
 ! Mobile checkout stuff
 amazon.com###sc-recs-widget
 amazon.com###sc-continue-shopping
+
+! Misc. mobile stuff
+amazon.com###sc-delivery-message-below-buy-box
+amazon.com###CardInstance1WjUZEbqPn9iHo6iN0R1Xw
+amazon.com###simpleBundle_feature_div > div.simpleBundleSection > div.a-cardui-deck.fullWidthCardDeck
+amazon.com###bundles_feature_div
+amazon.com###smart-wagon-recommendations
+amazon.com###detailILMPercolate_feature_div
+amazon.com###sponsoredProducts_feature_div > div > div.a-cardui-deck.dp-widget-card-deck:nth-child(4)
+amazon.com###sponsoredProducts2_feature_div > div > div.a-cardui-deck.dp-widget-card-deck:nth-child(4) > div.a-cardui:last-child
+amazon.com###nav-gwbar
